@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sordas Lab — Мобильные приложения и утилиты</title>
+  <link rel="icon" type="image/png" href="favicon.png">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #0D0F14;
+      color: #F4F6FA;
+      min-height: 100vh;
+      padding: 48px 20px;
+      line-height: 1.6;
+    }
+    .container { max-width: 720px; margin: 0 auto; }
+    header { margin-bottom: 40px; border-bottom: 1px solid #282E3A; padding-bottom: 24px; }
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      font-size: 26px;
+      font-weight: 800;
+      letter-spacing: -0.02em;
+    }
+    .brand-logo {
+      width: 40px;
+      height: 40px;
+      border-radius: 10px;
+      object-fit: cover;
+      box-shadow: 0 0 16px rgba(0, 229, 160, 0.35);
+      border: 1px solid #282E3A;
+    }
+    .dot { width: 10px; height: 10px; border-radius: 50%; background: #00E5A0; box-shadow: 0 0 12px #00E5A0; }
+    .tagline { color: #8B93A6; margin-top: 8px; font-size: 15px; }
+    h2 { font-size: 14px; text-transform: uppercase; letter-spacing: 0.08em; color: #8B93A6; margin-bottom: 16px; }
+    .app-card {
+      background: #171A21;
+      border: 1px solid #282E3A;
+      border-radius: 18px;
+      padding: 24px;
+      margin-bottom: 16px;
+    }
+    .badge {
+      display: inline-block;
+      background: rgba(0, 229, 160, 0.12);
+      color: #00E5A0;
+      font-size: 12px;
+      font-weight: 600;
+      padding: 4px 12px;
+      border-radius: 999px;
+      margin-bottom: 12px;
+    }
+    .app-card h3 { font-size: 22px; margin-bottom: 8px; }
+    .app-card p { color: #8B93A6; font-size: 15px; margin-bottom: 20px; }
+    .actions { display: flex; flex-wrap: wrap; gap: 12px; }
+    a.btn {
+      display: inline-block;
+      padding: 12px 20px;
+      border-radius: 12px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 14px;
+      transition: all 0.2s ease;
+    }
+    .primary { background: #00E5A0; color: #0D0F14; }
+    .primary:hover { background: #00c78b; transform: translateY(-1px); }
+    .secondary { background: #1F242E; color: #F4F6FA; border: 1px solid #282E3A; }
+    .secondary:hover { background: #282E3A; }
+    footer {
+      margin-top: 48px;
+      padding-top: 20px;
+      border-top: 1px solid #282E3A;
+      color: #8B93A6;
+      font-size: 13px;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+    footer a { color: #3B82F6; text-decoration: none; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="brand">
+        <img class="brand-logo" src="logo.png" alt="Sordas Lab" onerror="this.style.display='none'">
+        <span>Sordas Lab</span>
+      </div>
+      <p class="tagline">Быстрые, приватные и точные Android-приложения для повседневных задач.</p>
+    </header>
+
+    <h2>Наши продукты</h2>
+
+    <div class="app-card">
+      <span class="badge">Android • RuStore</span>
+      <h3>СменаПро: График смен и ЗП</h3>
+      <p>Умный календарь сменных графиков (2/2, 3/3, сутки/трое и любые циклы), точный расчет зарплаты с учетом НДФЛ, авансов и премий, а также надежные локальные напоминания.</p>
+      <div class="actions">
+        <!-- После публикации в RuStore замени # на прямую ссылку на приложение -->
+        <a class="btn primary" href="https://apps.rustore.ru/app/ru.smenapro.app">Скачать в RuStore</a>
+        <a class="btn secondary" href="privacy.html">Политика конфиденциальности</a>
+      </div>
+    </div>
+
+    <footer>
+      <span>© 2026 Sordas Lab</span>
+      <span>Поддержка: <a href="mailto:sordaslab.apps@gmail.com">sordaslab.apps@gmail.com</a></span>
+    </footer>
+  </div>
+</body>
+</html>

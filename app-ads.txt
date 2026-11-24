@@ -1,0 +1,5 @@
+# Sordas Lab Authorized Digital Sellers (app-ads.txt)
+# https://sordaslab.github.io/app-ads.txt
+# После одобрения в РСЯ / AdMob вставьте сюда строку идентификатора партнера:
+# Пример для Яндекса:
+# yandex.ru, <ID партнера>, DIRECT
